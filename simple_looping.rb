@@ -32,8 +32,10 @@ def while_iterator(number_of_times)
   # hint: user a counter to tell the while loop when to stop!
   count = 0
   while count < number_of_times
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+    count += 1
+    phrase = "Welcome to Flatiron School's Web Development Course!"
+    puts phrase
+  end
 end
 
 def until_iterator(number_of_times)
